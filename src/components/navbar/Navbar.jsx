@@ -28,14 +28,10 @@ const Navbar = () => {
         <div className="trade__navbar-menu_container scale-up-center">
           <div className="trade__navbar-menu_container-links">
           <p><a href="#home">Home</a></p>
-          <p><a href="#wtrade">What is Forex?</a></p>
-          <p><a href="#possibility">The Market</a></p>
-          <p><a href="#features">Case Studies</a></p>
-          <p><a href="#blog">Library</a></p>
-          </div>
-          <div className="trade__navbar-menu_container-links-sign">
-            <p>Sign in</p>
-            <button type="button">Sign up</button>
+          <p><a href="#wtrade">About</a></p>
+          <p><a href="#possibility">Web3.0</a></p>
+          <p><a href="#features">Contact Us</a></p>
+          <p><a href="#blog">Portfolio</a></p>
           </div>
         </div>
         )}
