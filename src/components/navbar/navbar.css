@@ -1,0 +1,133 @@
+.trade__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  padding: 2rem 6rem;
+}
+
+.trade__navbar-links {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.trade__navbar-links_logo {
+  display: flex;
+  margin-right: 1rem;
+  height: 100px;
+  justify-content: flex-start;
+  margin-right: 400px;
+}
+
+.trade__navbar-links_logo img {
+  width: 200px;
+  height: 100px;
+}
+
+.trade__navbar-links_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.trade__navbar-sign {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.trade__navbar-links_container p,
+.trade__navbar-sign p,
+.trade__navbar-menu_container p {
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.trade__navbar-menu {
+  margin-left: 1rem;
+
+  display: none;
+  position: relative;
+}
+
+.trade__navbar-menu svg {
+  cursor: pointer;
+}
+
+.trade__navbar-menu_container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  
+  text-align: end;
+  background: var(--color-footer);
+  padding: 2rem;
+  position: absolute;
+  right: 0;
+  top: 40px;
+  margin-top: 1rem;
+  min-width: 210px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
+}
+
+.trade__navbar-menu_container p {
+  margin: 1rem 0;
+}
+
+.trade__navbar-menu_container-links-sign {
+  display: none;
+}
+
+@media screen and (max-width: 1050px) {
+  .trade__navbar-links_container {
+      display: none;
+  }
+  .trade__navbar-links_logo{
+    margin-right: 200px;
+  }
+
+  .trade__navbar-menu {
+      display: flex;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .trade__navbar {
+      padding: 2rem 4rem;
+  }
+  .trade__navbar-links_logo{
+    margin-right: 150px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .trade__navbar {
+      padding: 2rem;
+  }
+
+  .trade__navbar-sign {
+      display: none;
+  }
+
+  .trade__navbar-menu_container {
+      top: 20px;
+  }
+  .trade__navbar-links_logo{
+    margin-right: 100px;
+  }
+
+  .trade__navbar-menu_container-links-sign {
+      display: block;
+  }
+}

@@ -1,0 +1,95 @@
+.trade__cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 2rem;
+  margin: 4rem;
+  border-radius: 1rem;
+  background: var(--gradient-bar)
+}
+
+.trade__cta-form {
+  display: flex;
+  flex-direction: column;
+  grid-auto-flow: 20;
+
+}
+.trade__cta-form-1{
+
+  background: transparent;
+  border-radius: 5px;
+
+}
+.trade__cta-form-2 {
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: transparent;
+}
+.trade__cta-form-textarea{
+
+  background: transparent;
+  border-radius: 8px;
+  margin-bottom: 30px;
+
+}
+.trade__cta-content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+
+  text-align: left;
+  color: #fff;
+}
+
+.trade__cta-content h2 {
+  font-family: var(--font-family);
+  font-size: 30px;
+  line-height: 50px;
+  font-weight: 700;
+  color:  linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+}
+
+
+
+
+
+.trade__cta-btn {
+  width: 100%;
+  min-height: 50px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  background: #FF4820;
+  border: 2px solid #FF4820;
+  padding: 0 1rem;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  border-radius: 15px;
+
+}
+
+@media screen and (max-width: 650px) {
+  .trade__cta {
+      flex-direction: column;
+  }
+
+  .trade__cta-btn {
+      margin: 2rem 0 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .trade__cta {
+      flex-direction: column;
+      margin: 4rem 2rem;
+  }
+  .trade__cta-btn button {
+      font-size: 14px;
+      line-height: 28px;
+  }
+}
