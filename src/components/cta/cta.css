@@ -7,8 +7,9 @@
   padding: 2rem;
   margin: 4rem;
   border-radius: 1rem;
-  background: var(--gradient-bar)
+ 
 }
+
 
 .trade__cta-form {
   display: flex;
@@ -18,27 +19,27 @@
 }
 .trade__cta-form-1{
 
-  background: transparent;
+  background: #E5E4E2;
   border-radius: 5px;
+  width: 70%;
 
 }
 .trade__cta-form-2 {
 
   margin-top: 30px;
   margin-bottom: 30px;
-  background: transparent;
+  background: #E5E4E2;
 }
-.trade__cta-form-textarea{
+.trade__cta-form-3{
 
-  background: transparent;
+  background: #E5E4E2;
   border-radius: 8px;
   margin-bottom: 30px;
 
 }
 .trade__cta-content {
-  display: flex;
-  flex-direction: column;
   margin-bottom: 10px;
+  padding: auto;
 
   text-align: left;
   color: #fff;
@@ -46,10 +47,10 @@
 
 .trade__cta-content h2 {
   font-family: var(--font-family);
-  font-size: 30px;
+  font-size: 50px;
   line-height: 50px;
   font-weight: 700;
-  color:  linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+
 }
 
 
@@ -57,7 +58,7 @@
 
 
 .trade__cta-btn {
-  width: 100%;
+  width: 80%;
   min-height: 50px;
   font-family: var(--font-family);
   font-weight: 600;
@@ -69,7 +70,8 @@
   color: #fff;
   cursor: pointer;
   outline: none;
-  border-radius: 15px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 
 }
 
@@ -88,7 +90,7 @@
       flex-direction: column;
       margin: 4rem 2rem;
   }
-  .trade__cta-btn button {
+  .trade__cta-btn {
       font-size: 14px;
       line-height: 28px;
   }
