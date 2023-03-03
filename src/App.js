@@ -1,8 +1,10 @@
 import React from 'react'
 import './App.css'
 
-import {Footer, Blog, Possibility, Trade, Header} from './container';
+import {Footer, Blog, Possibility, Trade, Header, } from './container';
 import {CTA, Brand, Navbar} from './components';
+import SocialLinks from './components/socialLinks/SocialLinks';
+import Techs from './container/techs/Techs';
 
 const App = () => {
   return (
@@ -15,9 +17,12 @@ const App = () => {
       <Trade />
       {/*<Features />*/}
       <Possibility />
+      <Techs />
       <CTA />
       <Blog />
       <Footer />
+
+      <SocialLinks />
     </div>
   )
 }

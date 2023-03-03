@@ -1,0 +1,78 @@
+.tech{
+  width: 100%;
+  height: 100vh;
+}
+.tech_first{
+  max-width: 1024px;
+  margin: auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: aliceblue;
+}
+.title{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  border-bottom-width: 4px ;
+  border-color: darkcyan;
+  padding: 0.5rem;
+  display: inline;
+}
+.title2{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.components{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 2rem;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+
+}
+@media screen and (max-width: 550px) {
+  .components{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media screen and (max-width:700px) {
+.components{
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+}
+@media (min-width: 640px) {
+  .components{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+.child{
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  transition-duration: 500ms;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.5rem;
+}
+.child :hover{
+  --tw-scale-x: 1.05;
+  --tw-scale-y: 1.05;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  
+}
+.image-d{
+  width: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.final{
+  margin-top: 1rem;
+}

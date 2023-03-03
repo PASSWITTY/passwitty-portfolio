@@ -8,7 +8,7 @@ const Header = () => (
     <div className="trade__header-content">
       <h1 className="gradient__text">I am Dennis Kipruto <br /> a FULLSTACK  software developer</h1>
       <div className="trade__header-content__input">
-        <button type="button">Get Started</button>
+        <button type="button">Get Started</button> 
       </div>
 
       <div className="trade__header-content__people">
