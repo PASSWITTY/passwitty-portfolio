@@ -23,6 +23,18 @@ const CTA = () => (
           </form>
     </div>
   </div>
+  /**  <input type="text"
+              name='name'
+              placeholder='Enter your name'
+              className='trade__cta-form-form-1' 
+              />
+              <input type="text"
+              name='email'
+              placeholder='Enter your email'
+              className='trade__cta-form-2'
+               />
+               <textarea name="message" id="" placeholder='Enter your message' rows="10" className='trade__cta-form-3'></textarea>
+               <button className='trade__cta-btn'>Let's Talk</button>*/
 );
 
 export default CTA;

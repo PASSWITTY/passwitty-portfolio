@@ -1,13 +1,12 @@
 import React from 'react';
-import html from '../../assets/html.png'
-import css from '../../assets/css.png'
-import github from '../../assets/github.png'
-import graphql from '../../assets/graphql.png'
-import tailwind from '../../assets/tailwind.png'
-import nextjs from '../../assets/nextjs.png'
-import reactImage from '../../assets/react.png'
-import javascript from '../../assets/javascript.png'
-
+import html from '../../assets/html.png';
+import css from '../../assets/css.png';
+import github from '../../assets/github.png';
+import graphql from '../../assets/graphql.png';
+import tailwind from '../../assets/tailwind.png';
+import nextjs from '../../assets/nextjs.png';
+import reactImage from '../../assets/react.png';
+import javascript from '../../assets/javascript.png';
 import './techs.css';
 
   
@@ -65,8 +64,6 @@ const Techs = () => {
       style: 'shadow-yellow-500'  
     }
   ]
-  
-
   return (
     <div className='tech' name='techs'>
       <div className='tech_first'>
@@ -75,21 +72,18 @@ const Techs = () => {
           <p className='title2'>These are the technologies i have worked with</p>
         </div>
         <div className='components'>
-
           {
             tech.map(({id,src, title, style}) => (
               <div
                key={id} 
-               className={`child ${style}`} 
-              
+               className={'child'} 
+               style={`${style}`}
                >
                 <img src={src} alt='' className='image-d'/>
                 <p className='final'>{title}</p>
               </div>
             ))
           }
-
-        
         </div>
       </div>
     </div>

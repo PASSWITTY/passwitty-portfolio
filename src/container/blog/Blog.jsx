@@ -17,8 +17,8 @@ const Blog = () => (
         <Article imgUrl={blog03} text="A navbar that caters for both mobile tablet and desktop screen beautifully" />
         <Article imgUrl={blog04} text="Smooth scroll equals beautiful website." />
         <Article imgUrl={blog05} text="" />
-        <Article imgUrl={blog06} text="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
-        <Article imgUrl={blog07} text="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
+        <Article imgUrl={blog06} text="" />
+        <Article imgUrl={blog07} text="" />
       </div>
     </div>
   </div>
