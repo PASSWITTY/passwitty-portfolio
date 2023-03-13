@@ -1,10 +1,10 @@
 import React from 'react'
 import './App.css'
 
-import {Footer, Blog, Possibility, Trade, Header, } from './container';
+import {Footer, Blog, Possibility, Trade, Header,Techs } from './container';
 import {CTA, Brand, Navbar} from './components';
 import SocialLinks from './components/socialLinks/SocialLinks';
-import Techs from './container/techs/Techs';
+
 
 const App = () => {
   return (

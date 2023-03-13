@@ -77,7 +77,6 @@ const Techs = () => {
               <div
                key={id} 
                className={'child'} 
-               style={`${style}`}
                >
                 <img src={src} alt='' className='image-d'/>
                 <p className='final'>{title}</p>
