@@ -38,7 +38,7 @@ const SocialLinks = () => {
            
         },
         {
-            id: 1,
+            id: 4,
             child: (
                 <>
                     Resume <BsFillPersonLinesFill size={30}/>
@@ -58,6 +58,7 @@ const SocialLinks = () => {
             {links.map(({id, child, href, download}) => (
                 <li  className={`sociallinks_items`}>
                     <a
+                        key={id}
                         href="href"
                         className='sociallinks_items-child'
                         download={download} 

@@ -7,6 +7,7 @@ import tailwind from '../../assets/tailwind.png';
 import nextjs from '../../assets/nextjs.png';
 import reactImage from '../../assets/react.png';
 import javascript from '../../assets/javascript.png';
+
 import './techs.css';
 
   
@@ -19,49 +20,49 @@ const Techs = () => {
       id:1,
       src: html,
       title: 'HTML',
-      style: 'shadow-orange-500'  
+      style: {border:'2px solid', color:'#F97316'}  
     }, 
     {
       id:2,
       src: css,
       title: 'CSS',
-      style: 'shadow-blue-500'  
+      style:{border:'2px solid', color:'#3B82F6'  }
     }, 
     {
       id:3,
       src: github,
       title: 'GitHub',
-      style: 'shadow-gray-400'  
+      style: {border:'2px solid', color:'#A1A1AA'}  
     }, 
     {
       id:4,
       src: graphql,
       title: 'GraphQl',
-      style: 'shadow-pink-400'  
+      style: {border:'2px solid', color:'#ED64A6' } 
     }, 
     {
       id:5,
       src: tailwind,
       title: 'Tailwind',
-      style: 'shadow-sky-500'  
+      style: {border:'2px solid', color:'#22D3EE'}  
     },
     {
       id:6,
       src: nextjs,
       title: 'NextJs',
-      style: 'shadow-white'  
+      style: {border:'2px solid', color:'#FFFFFF'}  
     },
      {
       id:7,
       src: reactImage,
       title: 'React',
-      style: 'shadow-blue-600'  
+      style: {border:'2px solid', color:'#2563EB' }
     }, 
     {
       id:8,
       src: javascript,
       title: 'JavaScript',
-      style: 'shadow-yellow-500'  
+      style: {border:'2px solid', color: '#F59E0B'}
     }
   ]
   return (
@@ -76,7 +77,8 @@ const Techs = () => {
             tech.map(({id,src, title, style}) => (
               <div
                key={id} 
-               className={'child'} 
+               className={`child`}
+               style={style}
                >
                 <img src={src} alt='' className='image-d'/>
                 <p className='final'>{title}</p>
