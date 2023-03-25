@@ -24,7 +24,7 @@ const SocialLinks = () => {
                     Github <FaGithub size={30}/>
                 </>
             ),
-            href:'https://github.com',
+            href:'https://github.com/PASSWITTY',
         },
         {
             id: 3,
@@ -44,7 +44,7 @@ const SocialLinks = () => {
                     Resume <BsFillPersonLinesFill size={30}/>
                 </>
             ),
-            href:'/resume.pdf',
+            href:'/Dennis_Resume.pdf',
             style: 'rounded-br-md',
             download: true
         }
